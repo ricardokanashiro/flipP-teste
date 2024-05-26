@@ -4,7 +4,7 @@ import './MyBook.css'
 
 function MyBook(props) {
   return (
-    <HTMLFlipBook width={200} height={250} usePortrait={false} showCover={true}>
+    <HTMLFlipBook width={400} height={500} usePortrait={true} showCover={true}>
       <div className="demoPage"></div>
       <div className="demoPage"></div>
       <div className="demoPage"></div>
