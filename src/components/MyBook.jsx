@@ -2,9 +2,9 @@ import HTMLFlipBook from "react-pageflip"
 
 import './MyBook.css'
 
-function MyBook() {
+function MyBook(props) {
   return (
-    <HTMLFlipBook width={200} height={250}>
+    <HTMLFlipBook width={200} height={250} usePortrait={false} showCover={true}>
       <div className="demoPage"></div>
       <div className="demoPage"></div>
       <div className="demoPage"></div>
