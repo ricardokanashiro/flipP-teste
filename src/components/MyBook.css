@@ -4,8 +4,44 @@
 }
 
 .demoPage {
-   background-image: url('../assets/jihi.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+   border-radius: 4px;
+}
+
+.capa {
+   background-image: url('../assets/capa.png');
+}
+
+.capa-final {
+   background-image: url('../assets/capa-final.png');
+}
+
+.contracapa {
+   background-image: url('../assets/contracapa.png');
+}
+
+.page1 {
+   background-image: url('../assets/page1.jpg');
+}
+
+.page2 {
+   background-image: url('../assets/page2.jpg');
+}
+
+.page3 {
+   background-image: url('../assets/page3.jpg');
+}
+
+.page4 {
+   background-image: url('../assets/page4.jpg');
+}
+
+.page5 {
+   background-image: url('../assets/page5.jpg');
+}
+
+.page6 {
+   background-image: url('../assets/page6.jpg');
 }
