@@ -16,10 +16,7 @@
 
 .capa-final {
    background-image: url('../assets/capa-final.png');
-}
-
-.contracapa {
-   background-image: url('../assets/contracapa.png');
+   transform: rotateY(180deg)
 }
 
 .page1 {
