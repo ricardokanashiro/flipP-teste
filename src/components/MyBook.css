@@ -44,4 +44,41 @@
 
 .page6 {
    background-image: url('../assets/page6.jpg');
+   position: relative;
 }
+
+a {
+   position: absolute;
+   bottom: 15%;
+   left: 30%;
+}
+
+img {
+   width: 50%;
+}
+
+img {
+   animation: action-tada 4s;
+   animation-iteration-count: infinite;
+ }
+ 
+ @keyframes action-tada {
+   0% {
+     transform: scale(1);
+   }
+   20% {
+     transform: scale(1.1) rotate(3deg);
+   }
+   40% {
+     transform: scale(0.97);
+   }
+   60% {
+     transform: scale(0.99) rotate(-3deg);
+   }
+   80% {
+     transform: scale(1.05);
+   }
+   100% {
+     transform: scale(1);
+   }
+ }

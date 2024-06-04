@@ -2,18 +2,24 @@ import HTMLFlipBook from "react-pageflip"
 
 import './MyBook.css'
 
+import CameraIcon from "../assets/camera-icon.png"
+
 function MyBook(props) {
   return (
-    <HTMLFlipBook width={420} height={600} usePortrait={true} showCover={true}>
+    <HTMLFlipBook width={400} height={580} usePortrait={true} showCover={true}>
       <div className="demoPage capa"></div>
-      <div className="demoPage contracapa"></div>
+      {/* <div className="demoPage contracapa"></div> */}
       <div className="demoPage page1"></div>
       <div className="demoPage page2"></div>
       <div className="demoPage page3"></div>
       <div className="demoPage page4"></div>
       <div className="demoPage page5"></div>
-      <div className="demoPage page6"></div>
-      <div className="demoPage contracapa"></div>
+      <div className="demoPage page6">
+        <a href="https://github.com/ricardokanashiro" >
+          <img src={CameraIcon} className="link" />
+        </a>
+      </div>
+      {/* <div className="demoPage contracapa"></div> */}
       <div className="demoPage capa-final"></div>
     </HTMLFlipBook>
 
