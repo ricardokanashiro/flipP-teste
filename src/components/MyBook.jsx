@@ -7,7 +7,7 @@ import CameraIcon from "../assets/camera-icon.png"
 function MyBook(props) {
    return (
 
-      <HTMLFlipBook width={300} height={450} usePortrait={true} showCover={true} className="book" drawShadow={false}>
+      <HTMLFlipBook width={330} height={495} usePortrait={true} showCover={true} className="book" drawShadow={false}>
          <div className="demoPage capa"></div>
          <div className="demoPage page1"></div>
          <div className="demoPage page2"></div>
