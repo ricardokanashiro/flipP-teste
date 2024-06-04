@@ -1,11 +1,12 @@
 .book {
-   
+   background-color: transparent;
 }
 
 .demoPage {
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+}
 
 .capa {
    background-image: url('../assets/capa.png');
