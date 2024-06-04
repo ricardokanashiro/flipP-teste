@@ -1,6 +1,6 @@
 .book {
-   /* min-width: 100dvw !important;
-   min-height: 100dvh !important; */
+   background-color: orange;
+   margin: 8px;
 }
 
 .demoPage {
