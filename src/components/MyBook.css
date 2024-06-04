@@ -1,3 +1,9 @@
+.book-wrapper {
+   width: 400px;
+   height: 580px;
+   background-color: red;
+}
+
 .book {
    background-color: orange;
 }
