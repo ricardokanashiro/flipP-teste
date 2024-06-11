@@ -12,6 +12,14 @@
    background-image: url('../assets/capa.png');
 }
 
+.capa2 {
+   background-image: url('../assets/capa2.png');
+}
+
+.capa3 {
+   background-image: url('../assets/capa3.png');
+}
+
 .capa-final {
    background-image: url('../assets/capa-final.png');
 }
@@ -41,9 +49,36 @@
    position: relative;
 }
 
-a {
+.page21 {
+   background-image: url('../assets/page21.png');
+}
+
+.page22 {
+   background-image: url('../assets/page22.png');
+}
+
+.page23 {
+   background-image: url('../assets/page23.png');
+}
+
+.page24 {
+   background-image: url('../assets/page24.png');
+}
+
+.page25 {
+   background-image: url('../assets/page25.png');
+   position: relative;
+}
+
+.link {
    position: absolute;
    bottom: 15%;
+   left: 30%;
+}
+
+.link2 {
+   position: absolute;
+   bottom: 10%;
    left: 30%;
 }
 
