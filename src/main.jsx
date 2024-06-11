@@ -13,12 +13,12 @@ const router = createBrowserRouter([
    },
 
    {
-      path: "/journal-one",
+      path: "/journalOne",
       element: <MyBook1 />
    },
 
    {
-      path: "/journal-two",
+      path: "/journalTwo",
       element: <MyBook2 />
    }
 ])
