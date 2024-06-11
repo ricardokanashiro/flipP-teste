@@ -4,10 +4,16 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import MyBook1 from './components/MyBook1.jsx'
 import MyBook2 from './components/MyBook2.jsx'
+import App from './App.jsx'
 
 const router = createBrowserRouter([
    {
-      path: "/jounal-one",
+      path: "/",
+      element: <App />
+   },
+
+   {
+      path: "/journal-one",
       element: <MyBook1 />
    },
 
