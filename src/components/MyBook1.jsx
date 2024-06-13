@@ -15,7 +15,7 @@ function MyBook1(props) {
          <div className="demoPage page4"></div>
          <div className="demoPage page5"></div>
          <div className="demoPage page6">
-            <a href="https://github.com/ricardokanashiro" target="_blank" className="link">
+            <a href="https://ricardokanashiro.github.io/teste-b1/book1.html" target="_blank" className="link">
                <img src={CameraIcon} />
             </a>
          </div>
