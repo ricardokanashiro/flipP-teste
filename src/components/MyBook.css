@@ -70,6 +70,27 @@
    position: relative;
 }
 
+.page31 {
+   background-image: url('../assets/page31.png');
+}
+
+.page32 {
+   background-image: url('../assets/page32.png');
+}
+
+.page33 {
+   background-image: url('../assets/page33.png');
+}
+
+.page34 {
+   background-image: url('../assets/page34.png');
+}
+
+.page35 {
+   background-image: url('../assets/page35.png');
+   position: relative;
+}
+
 .link {
    position: absolute;
    bottom: 15%;
@@ -77,6 +98,12 @@
 }
 
 .link2 {
+   position: absolute;
+   bottom: 10%;
+   left: 30%;
+}
+
+.link3 {
    position: absolute;
    bottom: 10%;
    left: 30%;
